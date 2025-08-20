@@ -46,21 +46,17 @@ Cloudinary
 
 📥 **Installation**
 
-Clone the repository
-
-git clone https://github.com/exclusiveabhi/react-job-portal.git
-cd react-job-portal
-
-
 **Install dependencies**
 
 # Backend
 cd backend
 npm install
+npm run dev
 
 # Frontend
 cd ../frontend
 npm install
+npm run dev
 
 
 **Set up environment variables**
@@ -97,14 +93,6 @@ Open your browser and navigate to 👉 http://localhost:5173
 
 If you like this project, please ⭐ star the repository – it really helps!
 
-Would you like me to also add a clean project architecture diagram (like frontend → backend → database → cloudinary flow) to make the README look even more professional?
-
-You said:
-yes
-ChatGPT said:
-
-Perfect 👍 Adding a project architecture diagram will make your README much more professional and easy to understand.
-
 Here’s how I suggest we include it:
 
 🚀 Hireverse – Job Connect Portal (MERN Stack)
@@ -135,7 +123,7 @@ flowchart TD
 
 **This diagram shows:**
 
-👩‍💻 Users interact with the React.js frontend.
+👩‍💻 Users interact with the React.js + vite frontend.
 
 ⚡ The frontend communicates with the Express.js backend via REST APIs.
 
