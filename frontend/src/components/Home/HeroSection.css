@@ -1,0 +1,67 @@
+.heroSection {
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.left-content h1 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.left-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.right-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures full coverage */
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 15px 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #007bff;
+}
+
+.title-num {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
